@@ -1,0 +1,189 @@
+# [first region,    last region]    material    visible   r       g       b      alpha
+# ------------------------------------------------------------------------------------
+  100   100  Adrenal                                                        true    0.191  0.800  0.300  1.000
+  200   200  Adrenal                                                        true    0.191  0.800  0.300  1.000
+  300   300  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.191  0.800  0.300  1.000
+  301   301  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.878  0.792  0.184  1.000
+  302   302  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.800  0.190  0.190  1.000
+  303   303  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.878  0.792  0.184  1.000
+  400   400  Water                                                          true    0.361  0.627  0.616  1.000
+  401   401  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.191  0.800  0.300  1.000
+  402   402  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.800  0.190  0.190  1.000
+  403   403  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.361  0.627  0.616  1.000
+  404   404  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.800  0.190  0.190  1.000
+  405   405  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.878  0.792  0.184  1.000
+  500   500  Oral_mucosa+Tongue                                             true    0.800  0.190  0.190  1.000
+  501   501  Oral_mucosa+Tongue                                             true    0.800  0.190  0.190  1.000
+  600   600  Oral_mucosa+Tongue                                             true    0.800  0.190  0.190  1.000
+  700   700  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.878  0.792  0.184  1.000
+  800   800  Water                                                          true    0.800  0.190  0.190  1.000
+  801   801  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.800  0.190  0.190  1.000
+  802   802  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.800  0.190  0.190  1.000
+  803   803  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.800  0.190  0.190  1.000
+  804   804  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.800  0.190  0.190  1.000
+  805   805  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.800  0.190  0.190  1.000
+  806   806  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.800  0.190  0.190  1.000
+  807   807  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.800  0.190  0.190  1.000
+  808   808  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.191  0.800  0.300  1.000
+  900   900  Blood                                                          true    0.800  0.190  0.190  1.000
+  910   910  Blood                                                          true    0.200  0.400  0.808  1.000
+ 1000  1000  Blood                                                          true    0.800  0.190  0.190  1.000
+ 1010  1010  Blood                                                          true    0.200  0.400  0.808  1.000
+ 1100  1100  Blood                                                          true    0.800  0.190  0.190  1.000
+ 1110  1110  Blood                                                          true    0.200  0.400  0.808  1.000
+ 1200  1200  Blood                                                          true    0.800  0.190  0.190  1.000
+ 1210  1210  Blood                                                          true    0.200  0.400  0.808  1.000
+ 1300  1300  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 1400  1400  Humeri+upper+spongiosa                                         true    0.800  0.190  0.190  1.000
+ 1500  1500  Medullary_cavity                                               true    0.369  0.369  0.400  1.000
+ 1600  1600  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 1700  1700  Humeri+lower+Ulnae_and_radii+Wrists_and_hand_bones+Femora+...  true    0.800  0.190  0.190  1.000
+ 1800  1800  Medullary_cavity                                               true    0.369  0.369  0.400  1.000
+ 1900  1900  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 2000  2000  Humeri+lower+Ulnae_and_radii+Wrists_and_hand_bones+Femora+...  true    0.800  0.190  0.190  1.000
+ 2100  2100  Medullary_cavity                                               true    0.369  0.369  0.400  1.000
+ 2200  2200  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 2300  2300  Humeri+lower+Ulnae_and_radii+Wrists_and_hand_bones+Femora+...  true    0.800  0.190  0.190  1.000
+ 2400  2400  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 2500  2500  Clavicles+spongiosa                                            true    0.800  0.190  0.190  1.000
+ 2600  2600  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 2700  2700  Cranium+spongiosa                                              true    0.800  0.190  0.190  1.000
+ 2800  2800  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 2900  2900  Femora+upper+spongiosa                                         true    0.800  0.190  0.190  1.000
+ 3000  3000  Medullary_cavity                                               true    0.369  0.369  0.400  1.000
+ 3100  3100  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 3200  3200  Humeri+lower+Ulnae_and_radii+Wrists_and_hand_bones+Femora+...  true    0.800  0.190  0.190  1.000
+ 3300  3300  Medullary_cavity                                               true    0.369  0.369  0.400  1.000
+ 3400  3400  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 3500  3500  Humeri+lower+Ulnae_and_radii+Wrists_and_hand_bones+Femora+...  true    0.800  0.190  0.190  1.000
+ 3600  3600  Medullary_cavity                                               true    0.369  0.369  0.400  1.000
+ 3700  3700  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 3800  3800  Humeri+lower+Ulnae_and_radii+Wrists_and_hand_bones+Femora+...  true    0.800  0.190  0.190  1.000
+ 3900  3900  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 4000  4000  Mandible+spongiosa                                             true    0.800  0.190  0.190  1.000
+ 4100  4100  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 4200  4200  Pelvis+spongiosa                                               true    0.800  0.190  0.190  1.000
+ 4300  4300  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 4400  4400  Ribs+spongiosa                                                 true    0.800  0.190  0.190  1.000
+ 4500  4500  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 4600  4600  Scapulae+spongiosa                                             true    0.800  0.190  0.190  1.000
+ 4700  4700  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 4800  4800  Cervical_spine+spongiosa                                       true    0.800  0.190  0.190  1.000
+ 4900  4900  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 5000  5000  Thoracic_spine+spongiosa                                       true    0.800  0.190  0.190  1.000
+ 5100  5100  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 5200  5200  Lumbar_spine+spongiosa                                         true    0.800  0.190  0.190  1.000
+ 5300  5300  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 5400  5400  Sacrum+spongiosa                                               true    0.800  0.190  0.190  1.000
+ 5500  5500  Cortical_bone                                                  true    1.000  1.000  1.000  1.000
+ 5600  5600  Sternum+spongiosa                                              true    0.800  0.190  0.190  1.000
+ 5700  5700  Cartilage                                                      true    1.000  1.000  1.000  1.000
+ 5800  5800  Cartilage                                                      true    1.000  1.000  1.000  1.000
+ 6100  6100  Brain                                                          true    0.800  0.190  0.190  1.000
+ 6200  6200  Breast+adipose_tissue                                          true    0.878  0.792  0.184  1.000
+ 6300  6300  Breast+glandular_tissue                                        true    0.878  0.792  0.184  1.000
+ 6400  6400  Breast+adipose_tissue                                          true    0.878  0.792  0.184  1.000
+ 6500  6500  Breast+glandular_tissue                                        true    0.878  0.792  0.184  1.000
+ 6600  6600  Eye_lens                                                       true    0.800  0.190  0.190  1.000
+ 6601  6601  Eye_lens                                                       true    0.191  0.800  0.300  1.000
+ 6700  6700  Cornea                                                         true    1.000  0.000  1.000  1.000
+ 6701  6701  Aqueous                                                        true    0.200  0.400  0.808  1.000
+ 6702  6702  Vitreous                                                       true    0.439  0.596  0.839  1.000
+ 6800  6800  Eye_lens                                                       true    0.800  0.190  0.190  1.000
+ 6801  6801  Eye_lens                                                       true    0.191  0.800  0.300  1.000
+ 6900  6900  Cornea                                                         true    1.000  0.000  1.000  1.000
+ 6901  6901  Aqueous                                                        true    0.200  0.400  0.808  1.000
+ 6902  6902  Vitreous                                                       true    0.439  0.596  0.839  1.000
+ 7000  7000  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.361  0.627  0.616  1.000
+ 7100  7100  Gall_bladder_contents                                          true    0.191  0.800  0.300  1.000
+ 7200  7200  Stomach_wall                                                   true    0.191  0.800  0.300  1.000
+ 7201  7201  Stomach_wall                                                   true    0.800  0.190  0.190  1.000
+ 7202  7202  Stomach_wall                                                   true    0.800  0.190  0.190  1.000
+ 7203  7203  Stomach_wall                                                   true    0.191  0.800  0.300  1.000
+ 7300  7300  GI_contents                                                    true    0.369  0.369  0.400  1.000
+ 7400  7400  Small_intestine_wall                                           true    0.878  0.792  0.184  1.000
+ 7401  7401  Small_intestine_wall                                           true    0.800  0.190  0.190  1.000
+ 7402  7402  Small_intestine_wall                                           true    0.878  0.792  0.184  1.000
+ 7403  7403  Small_intestine_wall                                           true    0.878  0.792  0.184  1.000
+ 7500  7500  GI_contents                                                    true    0.191  0.800  0.300  1.000
+ 7501  7501  GI_contents                                                    true    0.369  0.369  0.400  1.000
+ 7600  7600  Colon_wall                                                     true    0.361  0.627  0.616  1.000
+ 7601  7601  Colon_wall                                                     true    0.800  0.190  0.190  1.000
+ 7602  7602  Colon_wall                                                     true    0.714  0.428  0.181  1.000
+ 7700  7700  GI_contents                                                    true    0.369  0.369  0.400  1.000
+ 7800  7800  Colon_wall                                                     true    0.361  0.627  0.616  1.000
+ 7801  7801  Colon_wall                                                     true    0.800  0.190  0.190  1.000
+ 7802  7802  Colon_wall                                                     true    0.714  0.428  0.181  1.000
+ 7900  7900  GI_contents                                                    true    0.369  0.369  0.400  1.000
+ 8000  8000  Colon_wall                                                     true    0.361  0.627  0.616  1.000
+ 8001  8001  Colon_wall                                                     true    0.800  0.190  0.190  1.000
+ 8002  8002  Colon_wall                                                     true    0.714  0.428  0.181  1.000
+ 8100  8100  GI_contents                                                    true    0.369  0.369  0.400  1.000
+ 8200  8200  Colon_wall                                                     true    0.361  0.627  0.616  1.000
+ 8201  8201  Colon_wall                                                     true    0.800  0.190  0.190  1.000
+ 8202  8202  Colon_wall                                                     true    0.714  0.428  0.181  1.000
+ 8300  8300  GI_contents                                                    true    0.369  0.369  0.400  1.000
+ 8400  8400  Colon_wall                                                     true    0.361  0.627  0.616  1.000
+ 8401  8401  Colon_wall                                                     true    0.800  0.190  0.190  1.000
+ 8402  8402  Colon_wall                                                     true    0.714  0.428  0.181  1.000
+ 8500  8500  GI_contents                                                    true    0.369  0.369  0.400  1.000
+ 8600  8600  Colon_wall                                                     true    0.714  0.428  0.181  1.000
+ 8700  8700  Heart_wall                                                     true    0.800  0.190  0.190  1.000
+ 8800  8800  Blood                                                          true    0.800  0.190  0.190  1.000
+ 8900  8900  Kidney                                                         true    1.000  0.000  1.000  1.000
+ 9000  9000  Kidney                                                         true    0.191  0.800  0.300  1.000
+ 9100  9100  Kidney                                                         true    0.878  0.792  0.184  1.000
+ 9200  9200  Kidney                                                         true    1.000  0.000  1.000  1.000
+ 9300  9300  Kidney                                                         true    0.191  0.800  0.300  1.000
+ 9400  9400  Kidney                                                         true    0.878  0.792  0.184  1.000
+ 9500  9500  Liver                                                          true    0.878  0.792  0.184  1.000
+ 9700  9700  Lung                                                           true    0.439  0.596  0.839  1.000
+ 9900  9900  Lung                                                           true    0.439  0.596  0.839  1.000
+10000 10000  Lymphatic_nodes                                                true    0.191  0.800  0.300  1.000
+10100 10100  Lymphatic_nodes                                                true    0.191  0.800  0.300  1.000
+10200 10200  Lymphatic_nodes                                                true    0.191  0.800  0.300  1.000
+10300 10300  Lymphatic_nodes                                                true    0.191  0.800  0.300  1.000
+10400 10400  Lymphatic_nodes                                                true    0.191  0.800  0.300  1.000
+10500 10500  Lymphatic_nodes                                                true    0.191  0.800  0.300  1.000
+10600 10600  Muscle                                                         true    0.780  0.569  0.114  0.010
+10700 10700  Muscle                                                         true    0.780  0.569  0.114  0.010
+10800 10800  Muscle                                                         true    0.780  0.569  0.114  0.010
+10900 10900  Muscle                                                         true    0.780  0.569  0.114  0.010
+11000 11000  Oesophagus                                                     true    0.191  0.800  0.300  1.000
+11001 11001  Oesophagus                                                     true    0.800  0.190  0.190  1.000
+11002 11002  Oesophagus                                                     true    0.191  0.800  0.300  1.000
+11003 11003  GI_contents                                                    true    0.369  0.369  0.400  1.000
+11300 11300  Pancreas                                                       true    0.550  0.550  0.550  1.000
+11400 11400  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.361  0.627  0.616  1.000
+11500 11500  Prostate                                                       true    0.200  0.400  0.808  1.000
+11600 11600  RST                                                            true    1.000  0.914  0.914  0.020
+11700 11700  RST                                                            true    1.000  0.914  0.914  0.020
+11800 11800  RST                                                            true    1.000  0.914  0.914  0.020
+11900 11900  RST                                                            true    1.000  0.914  0.914  0.020
+12000 12000  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.191  0.800  0.300  1.000
+12100 12100  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.191  0.800  0.300  1.000
+12200 12200  Skin                                                           true    1.000  0.753  0.627  0.010
+12201 12201  Skin                                                           true    1.000  0.753  0.627  0.010
+12300 12300  Skin                                                           true    1.000  0.753  0.627  0.010
+12301 12301  Skin                                                           true    1.000  0.753  0.627  0.010
+12400 12400  Skin                                                           true    1.000  0.753  0.627  0.010
+12401 12401  Skin                                                           true    1.000  0.753  0.627  0.010
+12500 12500  Skin                                                           true    1.000  0.753  0.627  0.010
+12501 12501  Skin                                                           true    1.000  0.753  0.627  0.010
+12600 12600  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    1.000  1.000  1.000  1.000
+12700 12700  Spleen                                                         true    0.191  0.800  0.300  1.000
+12800 12800  Teeth                                                          true    1.000  1.000  1.000  1.000
+12801 12801  GI_contents                                                    true    0.191  0.800  0.300  1.000
+12900 12900  Gonads                                                         true    0.369  0.369  0.400  1.000
+13000 13000  Gonads                                                         true    0.369  0.369  0.400  1.000
+13100 13100  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.550  0.550  0.550  1.000
+13200 13200  Thyroid                                                        true    1.000  0.000  1.000  1.000
+13300 13300  Oral_mucosa+Tongue                                             true    0.800  0.190  0.190  1.000
+13301 13301  Oral_mucosa+Tongue                                             true    0.800  0.190  0.190  1.000
+13400 13400  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.361  0.627  0.616  1.000
+13500 13500  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.878  0.792  0.184  1.000
+13600 13600  ET+Trachea+BB+bb+Gall_bladder_wall+Pituitary_gland+...         true    0.878  0.792  0.184  1.000
+13700 13700  Urinary_bladder_wall                                           true    0.878  0.792  0.184  1.000
+13701 13701  Urinary_bladder_wall                                           true    0.800  0.190  0.190  1.000
+13800 13800  Urine                                                          true    0.369  0.369  0.400  1.000
+14000 14000  Air_inside_body                                                true    0.369  0.369  0.400  1.000
