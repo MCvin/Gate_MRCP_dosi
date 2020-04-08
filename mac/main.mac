@@ -51,9 +51,9 @@
 /gate/physics/Electron/SetCutInRegion                             world 10.0 mm
 /gate/physics/Positron/SetCutInRegion                             world 10.0 mm
 
-/gate/physics/Gamma/SetCutInRegion                                patient 0.1 mm
-/gate/physics/Electron/SetCutInRegion                             patient 0.1 mm
-/gate/physics/Positron/SetCutInRegion                             patient 0.1 mm
+/gate/physics/Gamma/SetCutInRegion                                meshModel 0.1 mm
+/gate/physics/Electron/SetCutInRegion                             meshModel 0.1 mm
+/gate/physics/Positron/SetCutInRegion                             meshModel 0.1 mm
 
 /gate/physics/displayCuts
 
