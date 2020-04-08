@@ -93,7 +93,7 @@
 
 # Mono energetic source
 /gate/source/addSource                                          ActivityMap gps
-/gate/source/ActivityMap/gps/centre                             0 0 0 cm
+/gate/source/ActivityMap/gps/pos/centre                         0 0 0 cm
 /gate/source/ActivityMap/gps/direction                          0 0 1
 
 #/gate/source/addSource                                          ActivityMap voxel
@@ -105,8 +105,8 @@
 #/gate/source/ActivityMap/setPosition                            -265.3625 -121.5875 -842.16 mm
 
 /gate/source/ActivityMap/gps/particle                           {particle}
-/gate/source/ActivityMap/gps/energytype                         Mono
-/gate/source/ActivityMap/gps/monoenergy                         {energy} MeV
+/gate/source/ActivityMap/gps/ene/type                           Mono
+/gate/source/ActivityMap/gps/ene/mono                           {energy} MeV
 #/gate/source/ActivityMap/gps/angtype                            iso
 /gate/source/ActivityMap/dump                                   1
 
