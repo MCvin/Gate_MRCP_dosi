@@ -73,10 +73,7 @@
 # VISUALISATION
 #=====================================================
 
-/vis/open                                                         OGLI
-/vis/drawVolume
-#/vis/scene/add/trajectories
-#/vis/scene/endOfEventAction                                       accumulate
+/control/execute                                                  mac/vis.mac
 
 #=====================================================
 # INITIALISATION
