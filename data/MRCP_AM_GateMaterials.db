@@ -17,6 +17,9 @@ Iodine:     S= I  ; Z= 53. ; A= 126.90  g/mole
 
 [Materials]
 
+Vacuum: d=0.000001 mg/cm3 ; n=1
++el: name=Hydrogen ; n=1
+
 Air_outside_body: d=0.00120479 g/cm3 ; n=4 ; state=gas
 +el: name=Nitrogen ; f=0.755268
 +el: name=Oxygen ; f=0.231781

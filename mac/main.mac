@@ -37,7 +37,7 @@
 /gate/meshModel/reader/setPathToELEFile                           data/phantoms/MRCP_{model}.ele
 /gate/meshModel/reader/setUnitOfLength                            1.0 mm
 # this will affect the bounding box, not the mesh
-/gate/meshModel/setMaterial                                       Air
+/gate/meshModel/setMaterial                                       Air_outside_body
 /gate/meshModel/vis/setVisible                                    False
 
 #=====================================================
