@@ -35,7 +35,7 @@
 /gate/world/daughters/insert                                      TetMeshBox
 /gate/meshModel/setPathToAttributeMap                             data/MRCP_{model}_RegionAttributeTable.dat
 /gate/meshModel/reader/setPathToELEFile                           data/phantoms/MRCP_{model}.ele
-/gate/meshModel/reader/setUnitOfLength                            1.0 mm
+/gate/meshModel/reader/setUnitOfLength                            1.0 cm
 # this will affect the bounding box, not the mesh
 /gate/meshModel/setMaterial                                       Air_outside_body
 /gate/meshModel/vis/setVisible                                    False
