@@ -29,6 +29,7 @@
 /gate/world/geometry/setXLength                                   1000 mm
 /gate/world/geometry/setYLength                                   1000 mm
 /gate/world/geometry/setZLength                                   2000 mm
+/gate/world/vis/forceWireframe
 
 # Mesh model
 /gate/world/daughters/name                                        meshModel
@@ -38,14 +39,13 @@
 /gate/meshModel/reader/setUnitOfLength                            1.0 cm
 # this will affect the bounding box, not the mesh
 /gate/meshModel/setMaterial                                       Air_outside_body
-/gate/meshModel/vis/setVisible                                    False
+/gate/meshModel/vis/forceWireframe
 
 #=====================================================
 # PHYSICS
 #=====================================================
 
 /gate/physics/addPhysicsList                                      emlivermore
-/gate/physics/processes/PhotoElectric/setAugerElectron            true
 
 /gate/physics/Gamma/SetCutInRegion                                world 10.0 mm
 /gate/physics/Electron/SetCutInRegion                             world 10.0 mm
@@ -91,7 +91,7 @@
 # Mono energetic source
 /gate/source/addSource                                          ActivityMap gps
 /gate/source/ActivityMap/gps/pos/centre                         0 0 0 cm
-/gate/source/ActivityMap/gps/direction                          0 0 1
+/gate/source/ActivityMap/gps/direction                          0 1 0
 
 #/gate/source/addSource                                          ActivityMap voxel
 #/gate/source/ActivityMap/reader/insert                          image
@@ -113,4 +113,3 @@
 
 /gate/application/setTotalNumberOfPrimaries                       {nb}
 /gate/application/start
-
