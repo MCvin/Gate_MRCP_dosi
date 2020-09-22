@@ -1,22 +1,22 @@
-#------------------------------------------------------------------------------------#
-# GATE macro for internal dosimetry with the MRCP models                             #
-#                                                                                    #
-# Author: Maxime Chauvin, maxime.chauvin@inserm.fr                                   #
-# Last revision: 06-04-2020                                                          #
-#                                                                                    #
-# Usage example, for mono energetic source:                                          #
+#-------------------------------------------------------------------------------------------#
+# GATE macro for internal dosimetry with the MRCP models                                    #
+#                                                                                           #
+# Author: Maxime Chauvin, maxime.chauvin@inserm.fr                                          #
+# Last revision: 06-04-2020                                                                 #
+#                                                                                           #
+# Usage example, for mono energetic source:                                                 #
 #   Gate -a [model,AF][Source_ID,95][particle,gamma][energy,1][nb,1e5][job,1] mac/main.mac  #
-#                                                                                    #
-# Inputs:                                                                            #
-#   - data/activity_ranges/ActivityRange*.dat                                        #
-#   - data/MRCP_{model}_GateMaterials.db                                             #
-#   - data/MRCP_{model}_RegionAttributeTable.dat                                     #
-#   - data/phantoms/MRCP_{model}.ele                                                 #
-#                                                                                    #
-# Outputs:                                                                           #
-#   - output/{job}_{model}-dose.csv                                                  #
-#   - output/{job}_{model}-stats.txt                                                 #
-#------------------------------------------------------------------------------------#
+#                                                                                           #
+# Inputs:                                                                                   #
+#   - data/activity_ranges/ActivityRange*.dat                                               #
+#   - data/MRCP_{model}_GateMaterials.db                                                    #
+#   - data/MRCP_{model}_RegionAttributeTable.dat                                            #
+#   - data/phantoms/MRCP_{model}.ele                                                        #
+#                                                                                           #
+# Outputs:                                                                                  #
+#   - output/{job}_{model}-dose.csv                                                         #
+#   - output/{job}_{model}-stats.txt                                                        #
+#-------------------------------------------------------------------------------------------#
 
 #=====================================================
 # GEOMETRY
@@ -63,7 +63,9 @@
 
 /gate/actor/addActor                                              TetMeshDoseActor doseByRegion
 /gate/actor/doseByRegion/attachTo                                 meshModel
-/gate/actor/doseByRegion/save                                     output/{job}_{model}-DoseByRegions.csv
+#/gate/actor/doseByRegion/setScoring                               tetrahedron
+#/gate/actor/doseByRegion/setScoring                               region
+/gate/actor/doseByRegion/save                                     output/{job}_{model}-DoseByRegion.csv
 
 /gate/actor/addActor                                              SimulationStatisticActor stat
 /gate/actor/stat/save                                             output/{job}_{model}-stats.txt

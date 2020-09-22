@@ -19,7 +19,7 @@
 /vis/drawVolume
 
 # Draw smooth trajectories at end of event
-/vis/scene/add/trajectories smooth
+/vis/scene/add/trajectories
 /vis/scene/endOfEventAction accumulate
 
 # Re-establish auto refreshing:
